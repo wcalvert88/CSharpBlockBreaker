@@ -12,10 +12,15 @@ public class Ball : MonoBehaviour {
     // state
     Vector2 paddleToBallVector;
     bool hasStarted = false;
+
+    // Cached component references
+    AudioSource myAudioSource;
+
 	// Use this for initialization
 	void Start () {
         paddleToBallVector = transform.position - paddle1.transform.position;
-	}
+        myAudioSource = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -47,7 +52,7 @@ public class Ball : MonoBehaviour {
         if (hasStarted)
         {
             AudioClip clip = ballSounds[UnityEngine.Random.Range(0, ballSounds.Length)];
-            GetComponent<AudioSource>().PlayOneShot(clip);
+            myAudioSource.PlayOneShot(clip);
         }
     }
 }
