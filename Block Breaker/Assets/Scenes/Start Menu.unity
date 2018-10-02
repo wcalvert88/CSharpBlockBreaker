@@ -113,46 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &86819790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 86819792}
-  - component: {fileID: 86819791}
-  m_Layer: 0
-  m_Name: Scene Loader
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &86819791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 86819790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a069eab174fee454bb9ca9168e2c9731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &86819792
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 86819790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &225350072
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +189,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 86819791}
+      - m_Target: {fileID: 243498620}
         m_MethodName: LoadNextScene
         m_Mode: 1
         m_Arguments:
@@ -276,6 +236,12 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 225350072}
   m_CullTransparentMesh: 0
+--- !u!114 &243498620 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114631328418680890, guid: de744bd9c6dfab745918cc579fb656a3,
+    type: 2}
+  m_PrefabInternal: {fileID: 716838818}
+  m_Script: {fileID: 11500000, guid: a069eab174fee454bb9ca9168e2c9731, type: 3}
 --- !u!1 &504075890
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +461,48 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698283664}
   m_CullTransparentMesh: 0
+--- !u!1001 &716838818
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459891875895492, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: de744bd9c6dfab745918cc579fb656a3, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &798520538
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +735,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 86819791}
+      - m_Target: {fileID: 243498620}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
