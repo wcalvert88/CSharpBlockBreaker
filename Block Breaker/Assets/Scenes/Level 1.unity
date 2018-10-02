@@ -2674,6 +2674,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114610705264200906, guid: efe3dbdd1c9b64045b69cf2eaf22d210,
+        type: 2}
+      propertyPath: ballSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4243360206470172, guid: efe3dbdd1c9b64045b69cf2eaf22d210, type: 2}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -2711,6 +2716,31 @@ Prefab:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 1408897685}
+    - target: {fileID: 114610705264200906, guid: efe3dbdd1c9b64045b69cf2eaf22d210,
+        type: 2}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5cce7d82164e0c940abefb2cd829c565, type: 3}
+    - target: {fileID: 114610705264200906, guid: efe3dbdd1c9b64045b69cf2eaf22d210,
+        type: 2}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e75c84319d11644e90f7d3379e7fc92, type: 3}
+    - target: {fileID: 114610705264200906, guid: efe3dbdd1c9b64045b69cf2eaf22d210,
+        type: 2}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: fe3341e9ca1567e4193a701c0f360eb3, type: 3}
+    - target: {fileID: 114610705264200906, guid: efe3dbdd1c9b64045b69cf2eaf22d210,
+        type: 2}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: edd6a950faf000c4d810a666baa4baca, type: 3}
+    - target: {fileID: 114610705264200906, guid: efe3dbdd1c9b64045b69cf2eaf22d210,
+        type: 2}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: c7b4f6e52909ab74a84177c834de7ec1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efe3dbdd1c9b64045b69cf2eaf22d210, type: 2}
   m_IsPrefabAsset: 0
@@ -3806,7 +3836,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7e75c84319d11644e90f7d3379e7fc92, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
