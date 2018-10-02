@@ -78,6 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 561b3e5fa1bdd624cadcda1b6c5430ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakSound: {fileID: 8300000, guid: 5cce7d82164e0c940abefb2cd829c565, type: 3}
 --- !u!212 &212742686151183430
 SpriteRenderer:
   m_ObjectHideFlags: 1
