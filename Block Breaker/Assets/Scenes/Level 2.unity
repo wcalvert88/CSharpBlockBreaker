@@ -1118,6 +1118,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114412019056073986, guid: 3e03dca6ee1c38640a1a1c08634daafb,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114412019056073986, guid: 3e03dca6ee1c38640a1a1c08634daafb,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e03dca6ee1c38640a1a1c08634daafb, type: 2}
   m_IsPrefabAsset: 0
@@ -2153,6 +2163,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0cb5e3dab583da46a3b6cf2bab8f23e, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1382122457 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114412019056073986, guid: 3e03dca6ee1c38640a1a1c08634daafb,
+    type: 2}
+  m_PrefabInternal: {fileID: 779574888}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 --- !u!1001 &1419977744
 Prefab:
   m_ObjectHideFlags: 0
@@ -2575,6 +2591,16 @@ Prefab:
       propertyPath: gameSpeed
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114068823350074068, guid: 109a585843bf67643b2f0a814937bfa1,
+        type: 2}
+      propertyPath: currentScore
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114068823350074068, guid: 109a585843bf67643b2f0a814937bfa1,
+        type: 2}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1382122457}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 109a585843bf67643b2f0a814937bfa1, type: 2}
   m_IsPrefabAsset: 0
