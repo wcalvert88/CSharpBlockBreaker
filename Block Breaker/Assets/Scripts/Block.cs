@@ -21,9 +21,10 @@ public class Block : MonoBehaviour {
 
     private void DestroyBlock(Collision2D collision)
     {
-        level.BlockDestroyed();
+        FindObjectOfType<GameStatus>().AddToScore();
         AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
         Destroy(gameObject);
         Debug.Log(collision.gameObject.name);
+        level.BlockDestroyed();
     }
 }
