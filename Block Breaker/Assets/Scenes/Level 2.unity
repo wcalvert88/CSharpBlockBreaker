@@ -3059,6 +3059,20 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1151891451393838, guid: 109a585843bf67643b2f0a814937bfa1, type: 2}
+      propertyPath: m_Name
+      value: Game Session
+      objectReference: {fileID: 0}
+    - target: {fileID: 114068823350074068, guid: 109a585843bf67643b2f0a814937bfa1,
+        type: 2}
+      propertyPath: isAutoPlayEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114068823350074068, guid: 109a585843bf67643b2f0a814937bfa1,
+        type: 2}
+      propertyPath: gameSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 109a585843bf67643b2f0a814937bfa1, type: 2}
   m_IsPrefabAsset: 0
