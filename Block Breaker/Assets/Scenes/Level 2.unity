@@ -2892,11 +2892,6 @@ Prefab:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 1162282510}
-    - target: {fileID: 50610386528686752, guid: efe3dbdd1c9b64045b69cf2eaf22d210,
-        type: 2}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efe3dbdd1c9b64045b69cf2eaf22d210, type: 2}
   m_IsPrefabAsset: 0
