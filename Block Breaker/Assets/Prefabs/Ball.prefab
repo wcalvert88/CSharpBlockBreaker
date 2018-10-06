@@ -62,7 +62,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!58 &58268086622763164
 CircleCollider2D:
@@ -193,6 +193,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fe3341e9ca1567e4193a701c0f360eb3, type: 3}
   - {fileID: 8300000, guid: edd6a950faf000c4d810a666baa4baca, type: 3}
   - {fileID: 8300000, guid: c7b4f6e52909ab74a84177c834de7ec1, type: 3}
+  randomFactor: 0.2
 --- !u!212 &212873784841945174
 SpriteRenderer:
   m_ObjectHideFlags: 1
